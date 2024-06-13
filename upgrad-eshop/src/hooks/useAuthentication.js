@@ -7,7 +7,7 @@ const useAuthentication = () => {
 
 	let initialState = localStorage.getItem("ecommerce_upgrad_logged_in_user_details");
 
-	let persistInCache = (json) => {
+	let saveInCache = (json) => {
 		initialState.user = json.username;
 		initialState.userId = json.userId;
 		initialState.roles = json.roles;
@@ -67,7 +67,7 @@ const useAuthentication = () => {
 			setAccessToken(json.accessToken);
 			setAccessTokenTimeout(json.accessTokenTimeout);
 			setLoginError(null);
-			persistInCache(json);
+			saveInCache(json);
 			promiseResolveRef(json);
 		}).catch(json => {
 			setLoggedInUser(null);
