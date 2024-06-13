@@ -1,12 +1,15 @@
-//After user logins, this is the homepage that is rendered
+import Box from "@mui/material/Box";
 
 import Grid from "@mui/material/Grid";
-import useAuthentication from "../../hooks/useAuthentication";
-import {useContext} from "react";
+
 import ProductCategory from "../productCategory/ProductCategory";
-import Box from "@mui/material/Box";
-import ProductSorting from "../productSorting/ProductSorting";
 import ProductListing from "../productListing/ProductListing";
+import ProductSorting from "../productSorting/ProductSorting";
+
+import useAuthentication from "../../hooks/useAuthentication";
+
+import {useContext} from "react";
+
 
 const Home = () => {
 	const {AuthCtx} = useAuthentication();
