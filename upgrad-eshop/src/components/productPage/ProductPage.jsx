@@ -3,7 +3,7 @@ import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 
 import CircularProgress from "@mui/material/CircularProgress";
-import CreatableSelect from "../creatableSelect/CreatableSelect";
+import CreatableSelect from "../createtableSelect/CreatableSelect";
 
 import Grid from "@mui/material/Grid";
 

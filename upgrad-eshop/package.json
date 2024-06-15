@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@mui/material": "^5.14.2"
-  },
+    },
   "eslintConfig": {
     "extends": [
       "react-app",

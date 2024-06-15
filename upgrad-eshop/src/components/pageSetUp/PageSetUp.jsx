@@ -12,7 +12,7 @@ import Home from "../home/Home";
 
 import Login from "../login/Login";
 
-import NavigationBar from "../navigationBar/NavigationBar";
+import NavigationBar from "../navigationbar/NavigationBar";
 
 import PlaceOrder from "../placeOrder/PlaceOrder";
 import ProductDetails from "../productDetails/ProductDetails";

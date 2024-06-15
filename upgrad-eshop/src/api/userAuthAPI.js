@@ -1,5 +1,7 @@
 
-import jwt_decode from "jwt-decode";
+
+const jwt_decode = require("jwt-decode");
+
 
 export const doLogin = (email, password) => {
 	
